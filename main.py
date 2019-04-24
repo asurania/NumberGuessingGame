@@ -3,11 +3,12 @@ import random
 random_number = (random.randint(1, 10))
 print(random_number)
 guess_list = []
-
+guess = None
 
 def number_game():
     print(random_number)
-    guess = None
+    global guess
+    global guess_list
     highscore = 0
     play = input("{} Do you want to Play the Number Game. Y or N".format(name))
 
