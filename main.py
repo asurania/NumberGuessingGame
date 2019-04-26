@@ -1,7 +1,3 @@
-import random
-
-
-
 guess_list = []
 guess = None
 highscore = 0
